@@ -1,0 +1,21 @@
+<html>
+   <head>
+	<title>Optical Illusion</title>
+
+         <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+         <script src="../build.js"></script>
+   </head>
+
+   <body>
+
+		<a-scene>
+			<a-assets>
+    			<img id="hole_illusion" src="https://ucarecdn.com/403427cb-7bf4-450d-8b9b-1da571ca4d2e/">
+			</a-assets>
+			<a-box color="red" position="-1 1 -6" rotation="0 45 45" scale="2 2 2"></a-box>
+			<a-sky src="#hole_illusion"> </a-sky>
+		</a-scene>
+
+	</body>
+
+</html>
